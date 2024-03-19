@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <script type="module">
+    // import hello, { array, printStart, s } from './script2.js';
+// import hello from './script2.js';
+// import { array } from './script2.js';
+// import { printStart } from './script2.js';
+// import { numbers } from './script2.js';
+import hello, { array as arrayOfNumbers, printStart, s } from './script2.js';
+import * as allprops from './script2.js';
+
+const array = [5, 6,7];
+hello();
+console.log('array', array);
+console.log('arrayOfNumbers', arrayOfNumbers);
+console.log('s imported', s);
+console.log('allprops',allprops.array);
+printStart();
+
+  </script>
+
+</body>
+</html>
