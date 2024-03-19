@@ -5,6 +5,10 @@
     }
     
     
+function hello(){
+    return 'Hello, this is my firs git repo!'
+}
+
 const number = 34;
 
 let user = {
