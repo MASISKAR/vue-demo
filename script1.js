@@ -18,3 +18,4 @@ let user = {
 
 
 export default sum;
+export {hello};

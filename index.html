@@ -15,7 +15,7 @@
 // import { numbers } from './script2.js';
 import hello, { array as arrayOfNumbers, printStart, s } from './script2.js';
 import * as allprops from './script2.js';
-
+import {hello as newHello} from './script1.js'
 const array = [5, 6,7];
 hello();
 console.log('array', array);
@@ -24,6 +24,7 @@ console.log('s imported', s);
 console.log('allprops',allprops.array);
 printStart();
 
+console.log(newHello());
   </script>
 
 </body>
